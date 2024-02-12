@@ -77,7 +77,7 @@ RegisterCommand("dance", function()
 		isDancing = true
 		
 		while true do Wait(0)
-		
+			DisplayHelpText("Press ~INPUTGROUP_MOVE~ to change direction.", "~n~Press ~INPUT_SPRINT~ and ~INPUT_JUMP~ to change intensity.", "~n~Press ~INPUT_ENTER~ to exit.", 5000)
 			DisableControlAction(0, 37, true)
 		
 			lastAnim = anim
